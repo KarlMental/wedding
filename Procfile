@@ -1,0 +1,1 @@
+web: sh -c "cd wedding && gunicorn wedding.wsgi"
