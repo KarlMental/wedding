@@ -85,6 +85,9 @@ ENV/
 #migrations
 www/migrations/
 
+#staticfiles
+wedding/staticfiles/
+
 #sqlite_db
 .sqlite3
 *.sqlite3
