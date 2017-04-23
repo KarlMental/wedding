@@ -1642,7 +1642,33 @@ a.buy:hover {
 		    box-shadow: none;
 	-webkit-border-radius: 0px;
 	   -moz-border-radius: 0px;
-			border-radius: 0px;	
+			border-radius: 0px;
+}
+
+#contact-form input[type="email"] {
+	border: 0px;
+	height: 40px;
+	color: #fff;
+	background: rgba(0,0,0,.2) !important;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+		    box-shadow: none;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+			border-radius: 0px;
+}
+
+#contact-form select {
+	border: 0px;
+	height: 40px;
+	color: #fff;
+	background: rgba(0,0,0,.2) !important;
+	-webkit-box-shadow: none;
+	   -moz-box-shadow: none;
+		    box-shadow: none;
+	-webkit-border-radius: 0px;
+	   -moz-border-radius: 0px;
+			border-radius: 0px;
 }
 
 #contact-form textarea {
