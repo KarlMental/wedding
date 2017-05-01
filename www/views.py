@@ -8,7 +8,8 @@ def index(request):
         if form.is_valid:
             form.save()
             form = GuestForm()
+            return render(request, 'index.html', {'form': form, 'success': True})
 
     else:
         form = GuestForm()
-    return render(request, 'index.html', {'form':form})
+        return render(request, 'index.html', {'form':form, 'success': False})
