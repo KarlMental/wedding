@@ -11,7 +11,7 @@ class Guest(models.Model):
     rsvp_answer = models.CharField(max_length=40, verbose_name='OSA', choices=RSVP_ANSWER_CHOICES)
     rsvp_datetime = models.TimeField(auto_now_add=True, blank=True)
     email = models.EmailField(max_length=100)
-    dietary_restrictions = models.TextField(verbose_name='Specialkost')
+    dietary_restrictions = models.TextField(verbose_name='Specialkost', blank=True)
     shuttle = models.CharField(max_length=40, choices=SHUTTLE_CHOICES, verbose_name='Vill du åka buss? (om du vill åka buss på hemvägen ge gärna en gissning på vilken buss du vill ta)')
 
     def __str__(self):

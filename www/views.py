@@ -7,6 +7,8 @@ def index(request):
         form = GuestForm(data=request.POST)
         if form.is_valid:
             form.save()
+            form = GuestForm()
+
     else:
         form = GuestForm()
     return render(request, 'index.html', {'form':form})
